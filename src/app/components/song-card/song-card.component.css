@@ -9,3 +9,28 @@
     border-radius: 12px;
     box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
 }
+
+.spotify__song-card_title{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    word-spacing: 0.4px;
+    color: white;
+    margin-top: 6px;
+    text-transform: capitalize;
+}
+
+.spotify__song-card_thumbnail{
+    background-color: rgba(0,0,0,0.24);
+    padding: 30px;
+    border-radius: 12px;
+    padding-top: 16px;
+}
+
+.spotify__song-card_description{
+    color: #a7a7a7;
+    margin-block: 0px;
+    box-sizing: border-box;
+    font-weight: 400;
+    text-align: center;
+}

@@ -37,3 +37,9 @@
     width: 110px;
     text-align: center;
 }
+
+.spotify__top-nav_login:hover{
+    cursor: pointer;
+    color: rgb(32, 198, 32);
+    background-color: rgb(32,32,32);
+}
