@@ -1,0 +1,65 @@
+.login__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 10px;
+}
+
+input[type="text"], input[type="password"]{
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgb(46, 42, 42);
+    padding: 10px;
+    width: 400px;
+}
+
+input::placeholder{
+    color: class="login__btn";
+}
+ 
+.login__btn{
+    background-color: #1ed760;
+    width: 150px;
+    color: black;
+    padding: 14px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.action_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.remember_me__align_checkboc{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 5px;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.form-switch input:checked{
+    background-color: #1ed760;
+}
+
+.signup_link{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+
+.signup_link:hover{
+    color: #1ed760;
+}
