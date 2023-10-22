@@ -1,0 +1,49 @@
+*{
+    background-color: #1e1e1e;
+}
+
+.mp3_player-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mp3-player-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        0deg,
+        rgba(0,0,0,1) 0%,
+        rgba(34,157,41,1) 90%
+    );
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mp3-player-card-no-song-available{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        0deg,
+        rgba(0,0,0,1) 0%,
+        rgba(34,157,41,1) 90%
+    );
+    color: aliceblue;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mp3-audio{
+    background-color: #043f04;
+}

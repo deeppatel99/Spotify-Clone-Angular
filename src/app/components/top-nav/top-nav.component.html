@@ -3,7 +3,7 @@
     <div class="spotify__top-nav_focus_title">
       <img class="left_right_btn" src="assets/left-btn.png" alt="Left" />
       <img class="left_right_btn" src="assets/right-btn.png" alt="Right" />
-      <input class="search_playlist" type="search" placeholder="What do you want to listen to?" />
+      <input *ngIf="isSearchFieldVisible" class="search_playlist" type="search" placeholder="What do you want to listen to?" />
     </div>
     <div class="spotify__top-nav_auth">
       <div class="spotify__top-nav_signup">Sign up</div>
